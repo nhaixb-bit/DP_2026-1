@@ -12,7 +12,7 @@ public class IDCard extends Product {
 
     @Override
     public void use() {
-        System.out.println(this + "을 사용합니다.");
+        System.out.println(this.toString() + "을 사용합니다.");
     }
 
     @Override
