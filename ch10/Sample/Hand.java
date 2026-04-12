@@ -1,7 +1,9 @@
 package ch10.Sample;
 
-public enum Hand {
+public enum Hand { //enum: 상수를 만들때 사용하는 클래스
     // 가위 바위 보를 나타내는 세 개의 enum 상수
+    //각 상수는 Hand 타입의 객체로 생성된다. -> 생성자를 호출
+    //프로그램 전체를 통해 손은 3개만 생성
     ROCK("바위", 0),
     SCISSORS("가위", 1),
     PAPER("보", 2);
@@ -11,7 +13,7 @@ public enum Hand {
     private int handvalue; // 가위 바위 보 손의 값 
 
     // 손의 값으로 상수를 얻기 위한 배열
-    private static Hand[] hands = {
+    private static Hand[] hands = { //static: 클래스에 한 개만 존재하는 배열
         ROCK, SCISSORS, PAPER
     };
 
@@ -27,8 +29,8 @@ public enum Hand {
     }
 
     // this가 h보다 강할 때 true
-    public boolean isStrongerThan(Hand h) {
-        return fight(h) == 1;
+    public boolean isStrongerThan(Hand h) { 
+        return fight(h) == 1; //손 두 개 비교
     }
 
     // this가 h보다 약할 때 true
