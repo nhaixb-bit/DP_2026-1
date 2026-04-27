@@ -57,4 +57,8 @@ public class Main {
         System.out.println("[LoggerEnum 로그]");
         System.out.println(logger3a.getLog());
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9455a27fed7d1c9ee2bba1be4b6a161faeaa0924

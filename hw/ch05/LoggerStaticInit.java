@@ -22,4 +22,8 @@ public class LoggerStaticInit {
     public String getLog() {
         return logBuffer.toString();
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9455a27fed7d1c9ee2bba1be4b6a161faeaa0924
