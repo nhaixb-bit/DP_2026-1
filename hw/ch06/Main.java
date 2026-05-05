@@ -17,7 +17,10 @@ public class Main {
         manager.register("border", bline);
 
         // 생성과 사용
+<<<<<<< HEAD
         System.out.println("20240812 방지안 6장 과제");
+=======
+>>>>>>> 822e85d4d96b61fccce795a79e59c58e88580414
         System.out.println("===== Test 1: UnderlinePen =====");
         Product p1 = manager.create("underline");
         p1.use("Welcome");
